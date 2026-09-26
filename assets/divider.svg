@@ -1,70 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 50" width="100%" height="50">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 24" width="100%" height="24">
   <defs>
-    <linearGradient id="divStaffGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0a0b0e" stop-opacity="0" />
-      <stop offset="12%" stop-color="#d4af37" stop-opacity="0.3" />
-      <stop offset="22%" stop-color="#d4af37" />
-      <stop offset="28%" stop-color="#ffe699" />
-      <stop offset="30%" stop-color="#8b1e1e" />
-      <stop offset="50%" stop-color="#550c0c" />
-      <stop offset="70%" stop-color="#8b1e1e" />
-      <stop offset="72%" stop-color="#ffe699" />
-      <stop offset="78%" stop-color="#d4af37" />
-      <stop offset="88%" stop-color="#d4af37" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#0a0b0e" stop-opacity="0" />
+    <linearGradient id="bronzeHairlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0d13" stop-opacity="0" />
+      <stop offset="25%" stop-color="#d8ba78" stop-opacity="0.25" />
+      <stop offset="48%" stop-color="#d8ba78" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#f4f1ea" stop-opacity="0.95" />
+      <stop offset="52%" stop-color="#d8ba78" stop-opacity="0.8" />
+      <stop offset="75%" stop-color="#d8ba78" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0a0d13" stop-opacity="0" />
     </linearGradient>
 
-    <filter id="divGlow" x="-20%" y="-40%" width="140%" height="180%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
     <style>
-      @keyframes divBreathing {
-        0%, 100% { opacity: 0.82; transform: scale(1); }
-        50% { opacity: 1; transform: scale(1.02); filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.75)); }
+      @keyframes dividerBreathe {
+        0%, 100% { opacity: 0.50; }
+        50% { opacity: 0.85; }
       }
-      @keyframes sparkDrift1 {
-        0% { transform: translate(0, 0); opacity: 0; }
-        50% { opacity: 0.9; }
-        100% { transform: translate(-15px, -18px); opacity: 0; }
-      }
-      @keyframes sparkDrift2 {
-        0% { transform: translate(0, 0); opacity: 0; }
-        50% { opacity: 0.9; }
-        100% { transform: translate(15px, -18px); opacity: 0; }
-      }
-      .divPulsing { animation: divBreathing 4s infinite ease-in-out; transform-origin: center; }
-      .sp1 { animation: sparkDrift1 3.5s infinite ease-in; }
-      .sp2 { animation: sparkDrift2 4s infinite ease-in; }
+      .anim-divider { animation: dividerBreathe 12s infinite ease-in-out; }
     </style>
   </defs>
 
-  <g transform="translate(450, 25)" filter="url(#divGlow)">
-    <!-- Main Staff Rod -->
-    <rect x="-380" y="-2" width="760" height="4" rx="2" fill="url(#divStaffGrad)" />
+  <g class="anim-divider" transform="translate(400, 12)">
+    <!-- Tapering bronze hairline -->
+    <line x1="-360" y1="0" x2="360" y2="0" stroke="url(#bronzeHairlineGrad)" stroke-width="1" />
     
-    <!-- Left Golden Hoop -->
-    <rect x="-240" y="-4.5" width="16" height="9" rx="1.5" fill="#ffd700" stroke="#8a6508" stroke-width="0.8" />
-    <!-- Right Golden Hoop -->
-    <rect x="224" y="-4.5" width="16" height="9" rx="1.5" fill="#ffd700" stroke="#8a6508" stroke-width="0.8" />
-
-    <!-- Center Seal Gem -->
-    <circle cx="0" cy="0" r="9" fill="#7a1414" stroke="#ffd700" stroke-width="1.8" class="divPulsing" />
-    <circle cx="0" cy="0" r="3.5" fill="#ffd700" />
-
-    <!-- Traditional Cloud Curls at Center -->
-    <path d="M -40 -1 C -25 -8, -15 8, 0 0 C 15 8, 25 -8, 40 -1" stroke="#d4af37" stroke-width="1" fill="none" opacity="0.65" />
-    
-    <!-- Accent Diamonds -->
-    <polygon points="-120,0 -124,-3 -128,0 -124,3" fill="#ffd700" opacity="0.8" />
-    <polygon points="120,0 124,-3 128,0 124,3" fill="#ffd700" opacity="0.8" />
-
-    <!-- Idle Embers on Divider -->
-    <circle class="sp1" cx="-8" cy="-2" r="1.2" fill="#ffd700" />
-    <circle class="sp2" cx="8" cy="-2" r="1.2" fill="#ffaa00" />
+    <!-- Delicate central antique bronze motif -->
+    <polygon points="0,-3.5 3.5,0 0,3.5 -3.5,0" fill="#d8ba78" />
+    <circle cx="-18" cy="0" r="1" fill="#d8ba78" opacity="0.6" />
+    <circle cx="18" cy="0" r="1" fill="#d8ba78" opacity="0.6" />
   </g>
 </svg>
