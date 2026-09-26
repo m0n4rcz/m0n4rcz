@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 50" width="100%" height="50">
+  <defs>
+    <linearGradient id="divStaffGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0b0e" stop-opacity="0" />
+      <stop offset="10%" stop-color="#d4af37" stop-opacity="0.3" />
+      <stop offset="20%" stop-color="#d4af37" />
+      <stop offset="28%" stop-color="#ffe699" />
+      <stop offset="30%" stop-color="#7a1414" />
+      <stop offset="50%" stop-color="#550c0c" />
+      <stop offset="70%" stop-color="#7a1414" />
+      <stop offset="72%" stop-color="#ffe699" />
+      <stop offset="80%" stop-color="#d4af37" />
+      <stop offset="90%" stop-color="#d4af37" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0a0b0e" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="divGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes divPulse {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; filter: drop-shadow(0 0 6px rgba(243, 198, 66, 0.7)); }
+      }
+      .divPulsing { animation: divPulse 3.5s infinite ease-in-out; }
+      .cinzelSmall {
+        font-family: 'Cinzel', 'Noto Serif SC', 'Songti SC', 'STSong', serif;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(450, 25)" filter="url(#divGlow)">
+    <!-- Main Staff Rod -->
+    <rect x="-380" y="-2" width="760" height="4" rx="2" fill="url(#divStaffGrad)" />
+    
+    <!-- Left Golden Hoop -->
+    <rect x="-240" y="-4.5" width="16" height="9" rx="1.5" fill="#ffd700" stroke="#8a6508" stroke-width="0.8" />
+    <!-- Right Golden Hoop -->
+    <rect x="224" y="-4.5" width="16" height="9" rx="1.5" fill="#ffd700" stroke="#8a6508" stroke-width="0.8" />
+
+    <!-- Center Seal Gem -->
+    <circle cx="0" cy="0" r="9" fill="#7a1414" stroke="#ffd700" stroke-width="1.8" class="divPulsing" />
+    <circle cx="0" cy="0" r="3.5" fill="#ffd700" />
+
+    <!-- Traditional Cloud Curls at Center -->
+    <path d="M -40 -1 C -25 -8, -15 8, 0 0 C 15 8, 25 -8, 40 -1" stroke="#d4af37" stroke-width="1" fill="none" opacity="0.6" />
+    
+    <!-- Accent Diamonds -->
+    <polygon points="-120,0 -124,-3 -128,0 -124,3" fill="#ffd700" opacity="0.75" />
+    <polygon points="120,0 124,-3 128,0 124,3" fill="#ffd700" opacity="0.75" />
+  </g>
+</svg>
