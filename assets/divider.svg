@@ -2,15 +2,15 @@
   <defs>
     <linearGradient id="divStaffGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0a0b0e" stop-opacity="0" />
-      <stop offset="10%" stop-color="#d4af37" stop-opacity="0.3" />
-      <stop offset="20%" stop-color="#d4af37" />
+      <stop offset="12%" stop-color="#d4af37" stop-opacity="0.3" />
+      <stop offset="22%" stop-color="#d4af37" />
       <stop offset="28%" stop-color="#ffe699" />
-      <stop offset="30%" stop-color="#7a1414" />
+      <stop offset="30%" stop-color="#8b1e1e" />
       <stop offset="50%" stop-color="#550c0c" />
-      <stop offset="70%" stop-color="#7a1414" />
+      <stop offset="70%" stop-color="#8b1e1e" />
       <stop offset="72%" stop-color="#ffe699" />
-      <stop offset="80%" stop-color="#d4af37" />
-      <stop offset="90%" stop-color="#d4af37" stop-opacity="0.3" />
+      <stop offset="78%" stop-color="#d4af37" />
+      <stop offset="88%" stop-color="#d4af37" stop-opacity="0.3" />
       <stop offset="100%" stop-color="#0a0b0e" stop-opacity="0" />
     </linearGradient>
 
@@ -23,14 +23,23 @@
     </filter>
 
     <style>
-      @keyframes divPulse {
-        0%, 100% { opacity: 0.8; }
-        50% { opacity: 1; filter: drop-shadow(0 0 6px rgba(243, 198, 66, 0.7)); }
+      @keyframes divBreathing {
+        0%, 100% { opacity: 0.82; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.02); filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.75)); }
       }
-      .divPulsing { animation: divPulse 3.5s infinite ease-in-out; }
-      .cinzelSmall {
-        font-family: 'Cinzel', 'Noto Serif SC', 'Songti SC', 'STSong', serif;
+      @keyframes sparkDrift1 {
+        0% { transform: translate(0, 0); opacity: 0; }
+        50% { opacity: 0.9; }
+        100% { transform: translate(-15px, -18px); opacity: 0; }
       }
+      @keyframes sparkDrift2 {
+        0% { transform: translate(0, 0); opacity: 0; }
+        50% { opacity: 0.9; }
+        100% { transform: translate(15px, -18px); opacity: 0; }
+      }
+      .divPulsing { animation: divBreathing 4s infinite ease-in-out; transform-origin: center; }
+      .sp1 { animation: sparkDrift1 3.5s infinite ease-in; }
+      .sp2 { animation: sparkDrift2 4s infinite ease-in; }
     </style>
   </defs>
 
@@ -48,10 +57,14 @@
     <circle cx="0" cy="0" r="3.5" fill="#ffd700" />
 
     <!-- Traditional Cloud Curls at Center -->
-    <path d="M -40 -1 C -25 -8, -15 8, 0 0 C 15 8, 25 -8, 40 -1" stroke="#d4af37" stroke-width="1" fill="none" opacity="0.6" />
+    <path d="M -40 -1 C -25 -8, -15 8, 0 0 C 15 8, 25 -8, 40 -1" stroke="#d4af37" stroke-width="1" fill="none" opacity="0.65" />
     
     <!-- Accent Diamonds -->
-    <polygon points="-120,0 -124,-3 -128,0 -124,3" fill="#ffd700" opacity="0.75" />
-    <polygon points="120,0 124,-3 128,0 124,3" fill="#ffd700" opacity="0.75" />
+    <polygon points="-120,0 -124,-3 -128,0 -124,3" fill="#ffd700" opacity="0.8" />
+    <polygon points="120,0 124,-3 128,0 124,3" fill="#ffd700" opacity="0.8" />
+
+    <!-- Idle Embers on Divider -->
+    <circle class="sp1" cx="-8" cy="-2" r="1.2" fill="#ffd700" />
+    <circle class="sp2" cx="8" cy="-2" r="1.2" fill="#ffaa00" />
   </g>
 </svg>
