@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/masterpiece.svg?v=5" alt="Nguyễn Nhật Anh — Software &amp; Data Systems" width="100%" />
+  <img src="assets/masterpiece.svg?v=5" alt="Nguyễn Nhật Anh — Software &amp; Data Engineer" width="100%" />
 </p>
 
 <p align="center">
