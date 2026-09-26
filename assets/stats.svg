@@ -27,10 +27,10 @@
     </style>
   </defs>
 
-  <!-- Outer Stele Stone Container -->
+  <!-- Stele Stone Container -->
   <rect x="15" y="15" width="920" height="330" rx="8" fill="url(#steleBg)" stroke="#3a3020" stroke-width="1.4" filter="url(#steleShadow)" />
 
-  <!-- Corner Runes -->
+  <!-- Corner Accents -->
   <g stroke="#d4af37" stroke-width="1.5" fill="none" opacity="0.65">
     <path d="M 25 45 L 25 25 L 45 25" />
     <path d="M 925 45 L 925 25 L 905 25" />
@@ -40,39 +40,35 @@
 
   <!-- Header Section -->
   <g text-anchor="middle" class="st-title">
-    <text x="475" y="52" fill="#d4af37" font-size="12.5" letter-spacing="5" opacity="0.9" class="runeActive">
-      · 道 业 刻 石 · CHRONICLE OF MASTERY ·
+    <text x="475" y="52" fill="#d4af37" font-size="12" letter-spacing="4" opacity="0.9" class="runeActive">
+      CORE ENGINEERING FOCUS &amp; PROFICIENCIES
     </text>
     <text x="475" y="78" fill="#f4f0eb" font-size="18" font-weight="600" letter-spacing="3">
-      PILLARS OF SOFTWARE &amp; DATA CULTIVATION
+      TECHNICAL FOCUS &amp; ACADEMIC PROFILE
     </text>
   </g>
 
   <line x1="50" y1="94" x2="900" y2="94" stroke="#332a1e" stroke-width="1" />
 
-  <!-- Left Column: Mastery Bars -->
+  <!-- Left Column: Focus Bars -->
   <g transform="translate(50, 115)">
-    <!-- Bar 1: Core Systems & OOP Architecture -->
-    <text x="0" y="15" fill="#e6dfd3" font-size="13" font-weight="600" class="st-body">Core Systems &amp; OOP Architecture</text>
-    <text x="400" y="15" text-anchor="end" fill="#ffd700" font-size="12" font-weight="600" class="st-body">88% · Java / C++</text>
+    <text x="0" y="15" fill="#e6dfd3" font-size="13" font-weight="600" class="st-body">Object-Oriented Design &amp; Systems Architecture</text>
+    <text x="400" y="15" text-anchor="end" fill="#ffd700" font-size="12" font-weight="600" class="st-body">Java / C++ · Core</text>
     <rect x="0" y="24" width="400" height="8" rx="4" fill="#1a1d26" stroke="#2a2316" stroke-width="1" />
     <rect x="0" y="24" width="352" height="8" rx="4" fill="url(#goldBar)" />
 
-    <!-- Bar 2: Data Engineering & Relational Storage -->
-    <text x="0" y="65" fill="#e6dfd3" font-size="13" font-weight="600" class="st-body">Data Engineering &amp; Query Optimization</text>
-    <text x="400" y="65" text-anchor="end" fill="#ffd700" font-size="12" font-weight="600" class="st-body">82% · SQL / PostgreSQL / Pandas</text>
+    <text x="0" y="65" fill="#e6dfd3" font-size="13" font-weight="600" class="st-body">Data Engineering &amp; Relational Storage</text>
+    <text x="400" y="65" text-anchor="end" fill="#ffd700" font-size="12" font-weight="600" class="st-body">SQL / PostgreSQL / Pandas</text>
     <rect x="0" y="74" width="400" height="8" rx="4" fill="#1a1d26" stroke="#2a2316" stroke-width="1" />
     <rect x="0" y="74" width="328" height="8" rx="4" fill="url(#goldBar)" />
 
-    <!-- Bar 3: Backend Services & REST APIs -->
-    <text x="0" y="115" fill="#e6dfd3" font-size="13" font-weight="600" class="st-body">Backend Architecture &amp; REST APIs</text>
-    <text x="400" y="115" text-anchor="end" fill="#ffd700" font-size="12" font-weight="600" class="st-body">80% · Spring Boot / FastAPI / Node</text>
+    <text x="0" y="115" fill="#e6dfd3" font-size="13" font-weight="600" class="st-body">Backend Frameworks &amp; RESTful APIs</text>
+    <text x="400" y="115" text-anchor="end" fill="#ffd700" font-size="12" font-weight="600" class="st-body">Spring Boot / FastAPI / Express</text>
     <rect x="0" y="124" width="400" height="8" rx="4" fill="#1a1d26" stroke="#2a2316" stroke-width="1" />
     <rect x="0" y="124" width="320" height="8" rx="4" fill="url(#goldBar)" />
 
-    <!-- Bar 4: DevOps & Linux Environments -->
-    <text x="0" y="165" fill="#e6dfd3" font-size="13" font-weight="600" class="st-body">DevOps, Linux &amp; Infrastructure</text>
-    <text x="400" y="165" text-anchor="end" fill="#ffd700" font-size="12" font-weight="600" class="st-body">78% · Docker / Git / Bash</text>
+    <text x="0" y="165" fill="#e6dfd3" font-size="13" font-weight="600" class="st-body">Linux Environments &amp; Containerization</text>
+    <text x="400" y="165" text-anchor="end" fill="#ffd700" font-size="12" font-weight="600" class="st-body">Docker / Git / Bash</text>
     <rect x="0" y="174" width="400" height="8" rx="4" fill="#1a1d26" stroke="#2a2316" stroke-width="1" />
     <rect x="0" y="174" width="312" height="8" rx="4" fill="url(#goldBar)" />
   </g>
@@ -80,38 +76,34 @@
   <!-- Vertical Divider Line -->
   <line x1="490" y1="115" x2="490" y2="315" stroke="#332a1e" stroke-width="1" />
 
-  <!-- Right Column: Cultivation Codex & Attributes -->
+  <!-- Right Column: Metadata Cards -->
   <g transform="translate(525, 115)" class="st-body">
-    <!-- Metric 1 -->
     <g transform="translate(0, 0)">
       <rect width="375" height="44" rx="5" fill="#121620" stroke="#3a3020" stroke-width="1" />
-      <text x="16" y="20" fill="#d4af37" font-size="11" class="st-title">ACADEMIC SANCTUARY</text>
+      <text x="16" y="20" fill="#d4af37" font-size="11" class="st-title">ACADEMIC INSTITUTION</text>
       <text x="16" y="35" fill="#f4f0eb" font-size="12.5" font-weight="600">Hanoi University of Science and Technology (HUST)</text>
       <text x="360" y="28" text-anchor="end" fill="#a69c8c" font-size="11">K68 · CS</text>
     </g>
 
-    <!-- Metric 2 -->
     <g transform="translate(0, 52)">
       <rect width="375" height="44" rx="5" fill="#121620" stroke="#3a3020" stroke-width="1" />
-      <text x="16" y="20" fill="#d4af37" font-size="11" class="st-title">CURRENT CULTIVATION REALM</text>
-      <text x="16" y="35" fill="#f4f0eb" font-size="12.5" font-weight="600">Golden Core Stage · 金丹初成</text>
-      <text x="360" y="28" text-anchor="end" fill="#ffd700" font-size="11">Data &amp; Systems</text>
+      <text x="16" y="20" fill="#d4af37" font-size="11" class="st-title">PRIMARY SPECIALIZATION</text>
+      <text x="16" y="35" fill="#f4f0eb" font-size="12.5" font-weight="600">Backend Systems &amp; Data Engineering</text>
+      <text x="360" y="28" text-anchor="end" fill="#ffd700" font-size="11">Active</text>
     </g>
 
-    <!-- Metric 3 -->
     <g transform="translate(0, 104)">
       <rect width="375" height="44" rx="5" fill="#121620" stroke="#3a3020" stroke-width="1" />
-      <text x="16" y="20" fill="#d4af37" font-size="11" class="st-title">CODEX REPOSITORY</text>
+      <text x="16" y="20" fill="#d4af37" font-size="11" class="st-title">CODEBASE REPOSITORY</text>
       <text x="16" y="35" fill="#f4f0eb" font-size="12.5" font-weight="600">github.com/m0n4rcz</text>
-      <text x="360" y="28" text-anchor="end" fill="#a69c8c" font-size="11">Active</text>
+      <text x="360" y="28" text-anchor="end" fill="#a69c8c" font-size="11">Verified</text>
     </g>
 
-    <!-- Metric 4 -->
     <g transform="translate(0, 156)">
       <rect width="375" height="44" rx="5" fill="#121620" stroke="#3a3020" stroke-width="1" />
-      <text x="16" y="20" fill="#d4af37" font-size="11" class="st-title">CORE DISCIPLINES</text>
-      <text x="16" y="35" fill="#f4f0eb" font-size="12.5" font-weight="600">Schema Design · Clean Architecture · Scalability</text>
-      <text x="360" y="28" text-anchor="end" fill="#a69c8c" font-size="11">Foundational</text>
+      <text x="16" y="20" fill="#d4af37" font-size="11" class="st-title">ENGINEERING PRINCIPLES</text>
+      <text x="16" y="35" fill="#f4f0eb" font-size="12.5" font-weight="600">Schema Integrity · Modularity · Scalability</text>
+      <text x="360" y="28" text-anchor="end" fill="#a69c8c" font-size="11">Standard</text>
     </g>
   </g>
 </svg>

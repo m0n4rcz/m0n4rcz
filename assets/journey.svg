@@ -48,10 +48,10 @@
     </style>
   </defs>
 
-  <!-- Container Box with Ancient Border -->
+  <!-- Container Box -->
   <rect x="15" y="15" width="970" height="290" rx="10" fill="url(#journeyBgGrad)" stroke="#3a3020" stroke-width="1.2" />
   
-  <!-- Outer Corner Frets -->
+  <!-- Outer Corner Accents -->
   <g stroke="#d4af37" stroke-width="1.5" fill="none" opacity="0.6">
     <path d="M 25 45 L 25 25 L 45 25" />
     <path d="M 975 45 L 975 25 L 955 25" />
@@ -59,83 +59,73 @@
     <path d="M 975 275 L 975 295 L 955 295" />
   </g>
 
-  <!-- Section Title Inside Box -->
+  <!-- Section Title -->
   <g text-anchor="middle" class="j-serif">
-    <text x="500" y="55" fill="#d4af37" font-size="13" letter-spacing="6" opacity="0.9">
-      · 历 练 之 路 · THE PATH OF CULTIVATION ·
+    <text x="500" y="55" fill="#d4af37" font-size="12" letter-spacing="5" opacity="0.9">
+      ENGINEERING PROGRESSION &amp; MILESTONES
     </text>
-    <text x="500" y="78" fill="#e6dfd3" font-size="19" font-weight="600" letter-spacing="4">
-      THE CHRONICLES OF GROWTH
+    <text x="500" y="78" fill="#e6dfd3" font-size="18" font-weight="600" letter-spacing="3">
+      ACADEMIC &amp; TECHNICAL EVOLUTION
     </text>
   </g>
 
   <!-- Connecting Pathway -->
-  <!-- Base track -->
   <line x1="140" y1="150" x2="860" y2="150" stroke="#332a1e" stroke-width="5" stroke-linecap="round" />
-  <!-- Animated Energy Core -->
   <line x1="140" y1="150" x2="860" y2="150" stroke="url(#lineEnergyGrad)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="10 6" class="energyLine" filter="url(#nodeBloom)" />
 
-  <!-- MILESTONE 1: 2023 HUST Awakening -->
+  <!-- MILESTONE 1: 2023 -->
   <g transform="translate(170, 150)">
     <circle cx="0" cy="0" r="22" fill="#1b1710" stroke="#8a6e29" stroke-width="1.5" />
     <circle cx="0" cy="0" r="13" fill="url(#nodeActiveGlow)" stroke="#ffd700" stroke-width="2" />
     <text x="0" y="4" text-anchor="middle" fill="#ffffff" font-size="9.5" font-weight="bold" class="j-sans">23</text>
     
-    <!-- Year & Milestone Title -->
-    <text x="0" y="-38" text-anchor="middle" fill="#d4af37" font-size="12" font-weight="700" class="j-serif">2023 · AWAKENING</text>
-    <text x="0" y="-22" text-anchor="middle" fill="#ffcc66" font-size="11" class="j-serif">悟道 · 入门</text>
+    <text x="0" y="-38" text-anchor="middle" fill="#d4af37" font-size="12" font-weight="700" class="j-serif">2023 · ADMISSION</text>
+    <text x="0" y="-22" text-anchor="middle" fill="#ffcc66" font-size="11" class="j-sans">HUST K68</text>
     
-    <!-- Description Below -->
-    <text x="0" y="42" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="j-serif">HUST CS FOUNDATIONS</text>
-    <text x="0" y="58" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Discrete Math &amp; Logic</text>
-    <text x="0" y="72" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Data Structures &amp; C/C++</text>
+    <text x="0" y="42" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="j-serif">CS FOUNDATIONS</text>
+    <text x="0" y="58" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Algorithms &amp; Discrete Math</text>
+    <text x="0" y="72" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Procedural C / C++</text>
   </g>
 
-  <!-- MILESTONE 2: 2024 Core Java & OOP -->
+  <!-- MILESTONE 2: 2024 -->
   <g transform="translate(390, 150)">
     <circle cx="0" cy="0" r="22" fill="#1b1710" stroke="#8a6e29" stroke-width="1.5" />
     <circle cx="0" cy="0" r="13" fill="url(#nodeActiveGlow)" stroke="#ffd700" stroke-width="2" />
     <text x="0" y="4" text-anchor="middle" fill="#ffffff" font-size="9.5" font-weight="bold" class="j-sans">24</text>
     
-    <!-- Year & Milestone Title -->
-    <text x="0" y="-38" text-anchor="middle" fill="#d4af37" font-size="12" font-weight="700" class="j-serif">2024 · WAY OF OBJECTS</text>
-    <text x="0" y="-22" text-anchor="middle" fill="#ffcc66" font-size="11" class="j-serif">万化 · 筑基</text>
+    <text x="0" y="-38" text-anchor="middle" fill="#d4af37" font-size="12" font-weight="700" class="j-serif">2024 · SYSTEMS</text>
+    <text x="0" y="-22" text-anchor="middle" fill="#ffcc66" font-size="11" class="j-sans">OOP Architecture</text>
     
-    <!-- Description Below -->
-    <text x="0" y="42" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="j-serif">JAVA &amp; OOP ARCHITECTURE</text>
-    <text x="0" y="58" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">SOLID Principles &amp; Design</text>
-    <text x="0" y="72" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Academic Software Labs</text>
+    <text x="0" y="42" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="j-serif">JAVA ARCHITECTURE</text>
+    <text x="0" y="58" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">SOLID Principles &amp; Design Patterns</text>
+    <text x="0" y="72" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Software Engineering Labs</text>
   </g>
 
-  <!-- MILESTONE 3: 2025 Data Forge & Backend -->
+  <!-- MILESTONE 3: 2025 -->
   <g transform="translate(610, 150)">
     <circle cx="0" cy="0" r="24" fill="#1b1710" stroke="#d4af37" stroke-width="1.8" />
     <circle cx="0" cy="0" r="14" fill="url(#nodeActiveGlow)" stroke="#ffd700" stroke-width="2.5" filter="url(#nodeBloom)" class="pulseRing" />
     <text x="0" y="4" text-anchor="middle" fill="#ffffff" font-size="9.5" font-weight="bold" class="j-sans">25</text>
     
-    <!-- Year & Milestone Title -->
-    <text x="0" y="-38" text-anchor="middle" fill="#ffd700" font-size="12" font-weight="700" class="j-serif">2025 · DATA FORGE</text>
-    <text x="0" y="-22" text-anchor="middle" fill="#ffcc66" font-size="11" class="j-serif">乾坤 · 炼器</text>
+    <text x="0" y="-38" text-anchor="middle" fill="#ffd700" font-size="12" font-weight="700" class="j-serif">2025 · DATA &amp; APIS</text>
+    <text x="0" y="-22" text-anchor="middle" fill="#ffcc66" font-size="11" class="j-sans">Pipelines &amp; Fullstack</text>
     
-    <!-- Description Below -->
-    <text x="0" y="42" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="j-serif">DATA &amp; BACKEND PIPELINES</text>
+    <text x="0" y="42" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="j-serif">DATA ENGINEERING</text>
     <text x="0" y="58" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">PostgreSQL, SQL &amp; Pandas</text>
-    <text x="0" y="72" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Fullstack &amp; POS Systems</text>
+    <text x="0" y="72" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Fullstack POS &amp; ETL Pipelines</text>
   </g>
 
-  <!-- MILESTONE 4: 2026+ Boundless Horizon -->
+  <!-- MILESTONE 4: 2026+ -->
   <g transform="translate(830, 150)">
     <circle cx="0" cy="0" r="22" fill="#1b1710" stroke="#8a6e29" stroke-width="1.5" />
     <circle cx="0" cy="0" r="13" fill="#2d2417" stroke="#b89035" stroke-width="1.8" />
     <text x="0" y="4" text-anchor="middle" fill="#e6dfd3" font-size="9" font-weight="bold" class="j-sans">26+</text>
     
-    <!-- Year & Milestone Title -->
-    <text x="0" y="-38" text-anchor="middle" fill="#d4af37" font-size="12" font-weight="700" class="j-serif">2026+ · THE CLOUD</text>
-    <text x="0" y="-22" text-anchor="middle" fill="#ffcc66" font-size="11" class="j-serif">筋斗云 · 凌霄</text>
+    <text x="0" y="-38" text-anchor="middle" fill="#d4af37" font-size="12" font-weight="700" class="j-serif">2026+ · DISTRIBUTED</text>
+    <text x="0" y="-22" text-anchor="middle" fill="#ffcc66" font-size="11" class="j-sans">Cloud Architectures</text>
     
-    <!-- Description Below -->
     <text x="0" y="42" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="j-serif">DISTRIBUTED SYSTEMS</text>
-    <text x="0" y="58" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Scalable Microservices</text>
-    <text x="0" y="72" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Big Data &amp; Stream Eng</text>
+    <text x="0" y="58" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">High-Throughput Services</text>
+    <text x="0" y="72" text-anchor="middle" fill="#a69c8c" font-size="10.5" class="j-sans">Enterprise Scalability</text>
   </g>
 </svg>

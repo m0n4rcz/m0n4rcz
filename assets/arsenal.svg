@@ -22,9 +22,6 @@
       .a-body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       }
-      .card-box {
-        transition: stroke 0.3s;
-      }
       .pill {
         fill: #1a1e28;
         stroke: #3d3322;
@@ -33,78 +30,68 @@
     </style>
   </defs>
 
-  <!-- CARD 1: SACRED SCRIPTS (LANGUAGES) -->
+  <!-- CARD 1: PROGRAMMING LANGUAGES -->
   <g transform="translate(30, 20)" filter="url(#cardGlow)">
-    <rect class="card-box" width="455" height="210" rx="8" fill="url(#cardBgGrad)" stroke="#b89035" stroke-width="1.2" />
-    <!-- Corner Accents -->
+    <rect width="455" height="210" rx="8" fill="url(#cardBgGrad)" stroke="#b89035" stroke-width="1.2" />
     <path d="M 8 20 L 8 8 L 20 8" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 447 20 L 447 8 L 435 8" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 8 190 L 8 202 L 20 202" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 447 190 L 447 202 L 435 202" stroke="#ffd700" stroke-width="1.5" fill="none" />
     
-    <!-- Header -->
-    <text x="30" y="38" fill="url(#cardHeaderGold)" font-size="14.5" font-weight="700" letter-spacing="3" class="a-title">
-      I · SACRED SCRIPTS  ·  符 咒 灵 文
+    <text x="30" y="38" fill="url(#cardHeaderGold)" font-size="14.5" font-weight="700" letter-spacing="2" class="a-title">
+      I · PROGRAMMING LANGUAGES
     </text>
     <text x="30" y="58" fill="#9b917f" font-size="11.5" class="a-body">
-      Core Programming Languages &amp; Execution Engines
+      Core Execution &amp; Algorithmic Development
     </text>
     <line x1="30" y1="70" x2="425" y2="70" stroke="#3a3020" stroke-width="1" />
 
-    <!-- Weapon Pills -->
-    <!-- Python -->
     <g transform="translate(30, 85)">
       <rect class="pill" width="85" height="32" rx="4" />
       <text x="42" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="a-body">Python</text>
     </g>
-    <!-- Java -->
     <g transform="translate(125, 85)">
       <rect class="pill" width="80" height="32" rx="4" />
       <text x="40" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="a-body">Java</text>
     </g>
-    <!-- SQL -->
     <g transform="translate(215, 85)">
       <rect class="pill" width="75" height="32" rx="4" />
       <text x="37" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="a-body">SQL</text>
     </g>
-    <!-- C/C++ -->
     <g transform="translate(300, 85)">
       <rect class="pill" width="85" height="32" rx="4" />
       <text x="42" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="a-body">C / C++</text>
     </g>
-    <!-- JS/TS -->
     <g transform="translate(30, 127)">
       <rect class="pill" width="105" height="32" rx="4" />
-      <text x="52" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12" font-weight="600" class="a-body">JavaScript</text>
+      <text x="52" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="a-body">JavaScript</text>
     </g>
     <g transform="translate(145, 127)">
       <rect class="pill" width="105" height="32" rx="4" />
-      <text x="52" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12" font-weight="600" class="a-body">TypeScript</text>
+      <text x="52" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12.5" font-weight="600" class="a-body">TypeScript</text>
     </g>
 
-    <!-- Descriptor -->
     <text x="30" y="185" fill="#a89d8c" font-size="11.5" class="a-body">
       Focus: OOP architectures, concurrent threads &amp; data structures
     </text>
   </g>
 
-  <!-- CARD 2: VESSELS OF DATA (DATA & STORAGE) -->
+  <!-- CARD 2: DATA & PERSISTENCE -->
   <g transform="translate(515, 20)" filter="url(#cardGlow)">
-    <rect class="card-box" width="455" height="210" rx="8" fill="url(#cardBgGrad)" stroke="#b89035" stroke-width="1.2" />
+    <rect width="455" height="210" rx="8" fill="url(#cardBgGrad)" stroke="#b89035" stroke-width="1.2" />
     <path d="M 8 20 L 8 8 L 20 8" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 447 20 L 447 8 L 435 8" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 8 190 L 8 202 L 20 202" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 447 190 L 447 202 L 435 202" stroke="#ffd700" stroke-width="1.5" fill="none" />
     
-    <text x="30" y="38" fill="url(#cardHeaderGold)" font-size="14.5" font-weight="700" letter-spacing="3" class="a-title">
-      II · VESSELS OF DATA  ·  乾 坤 宝 器
+    <text x="30" y="38" fill="url(#cardHeaderGold)" font-size="14.5" font-weight="700" letter-spacing="2" class="a-title">
+      II · DATA &amp; STORAGE ENGINES
     </text>
     <text x="30" y="58" fill="#9b917f" font-size="11.5" class="a-body">
-      Databases, Storage Engines &amp; Analytical Pipelines
+      Databases, Storage Models &amp; Analytical Pipelines
     </text>
     <line x1="30" y1="70" x2="425" y2="70" stroke="#3a3020" stroke-width="1" />
 
-    <!-- Weapon Pills -->
     <g transform="translate(30, 85)">
       <rect class="pill" width="105" height="32" rx="4" />
       <text x="52" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12" font-weight="600" class="a-body">PostgreSQL</text>
@@ -121,7 +108,6 @@
       <rect class="pill" width="85" height="32" rx="4" />
       <text x="42" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12" font-weight="600" class="a-body">Pandas</text>
     </g>
-
     <g transform="translate(30, 127)">
       <rect class="pill" width="115" height="32" rx="4" />
       <text x="57" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12" font-weight="600" class="a-body">NumPy / ETL</text>
@@ -132,23 +118,23 @@
     </g>
 
     <text x="30" y="185" fill="#a89d8c" font-size="11.5" class="a-body">
-      Focus: Schema design, index optimization &amp; batch processing
+      Focus: Relational modeling, indexing strategies &amp; batch processing
     </text>
   </g>
 
-  <!-- CARD 3: THE FORGE & ARMOR (SYSTEMS & DEVOPS) -->
+  <!-- CARD 3: INFRASTRUCTURE & TOOLS -->
   <g transform="translate(30, 250)" filter="url(#cardGlow)">
-    <rect class="card-box" width="455" height="210" rx="8" fill="url(#cardBgGrad)" stroke="#b89035" stroke-width="1.2" />
+    <rect width="455" height="210" rx="8" fill="url(#cardBgGrad)" stroke="#b89035" stroke-width="1.2" />
     <path d="M 8 20 L 8 8 L 20 8" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 447 20 L 447 8 L 435 8" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 8 190 L 8 202 L 20 202" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 447 190 L 447 202 L 435 202" stroke="#ffd700" stroke-width="1.5" fill="none" />
     
-    <text x="30" y="38" fill="url(#cardHeaderGold)" font-size="14.5" font-weight="700" letter-spacing="3" class="a-title">
-      III · THE FORGE &amp; ARMOR  ·  金 刚 护 体
+    <text x="30" y="38" fill="url(#cardHeaderGold)" font-size="14.5" font-weight="700" letter-spacing="2" class="a-title">
+      III · INFRASTRUCTURE &amp; TOOLS
     </text>
     <text x="30" y="58" fill="#9b917f" font-size="11.5" class="a-body">
-      Infrastructure, Environment &amp; Versioning
+      Environments, Containerization &amp; Version Control
     </text>
     <line x1="30" y1="70" x2="425" y2="70" stroke="#3a3020" stroke-width="1" />
 
@@ -168,7 +154,6 @@
       <rect class="pill" width="85" height="32" rx="4" />
       <text x="42" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12" font-weight="600" class="a-body">Bash / Sh</text>
     </g>
-
     <g transform="translate(30, 127)">
       <rect class="pill" width="105" height="32" rx="4" />
       <text x="52" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12" font-weight="600" class="a-body">Postman</text>
@@ -183,19 +168,19 @@
     </text>
   </g>
 
-  <!-- CARD 4: ARCANE ENCHANTMENTS (BACKEND & APIS) -->
+  <!-- CARD 4: BACKEND & FRAMEWORKS -->
   <g transform="translate(515, 250)" filter="url(#cardGlow)">
-    <rect class="card-box" width="455" height="210" rx="8" fill="url(#cardBgGrad)" stroke="#b89035" stroke-width="1.2" />
+    <rect width="455" height="210" rx="8" fill="url(#cardBgGrad)" stroke="#b89035" stroke-width="1.2" />
     <path d="M 8 20 L 8 8 L 20 8" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 447 20 L 447 8 L 435 8" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 8 190 L 8 202 L 20 202" stroke="#ffd700" stroke-width="1.5" fill="none" />
     <path d="M 447 190 L 447 202 L 435 202" stroke="#ffd700" stroke-width="1.5" fill="none" />
     
-    <text x="30" y="38" fill="url(#cardHeaderGold)" font-size="14.5" font-weight="700" letter-spacing="3" class="a-title">
-      IV · ARCANE ENCHANTMENTS  ·  妙 法 神 通
+    <text x="30" y="38" fill="url(#cardHeaderGold)" font-size="14.5" font-weight="700" letter-spacing="2" class="a-title">
+      IV · BACKEND ARCHITECTURE
     </text>
     <text x="30" y="58" fill="#9b917f" font-size="11.5" class="a-body">
-      Backend Frameworks, RESTful Services &amp; Architecture
+      Backend Frameworks, Services &amp; RESTful APIs
     </text>
     <line x1="30" y1="70" x2="425" y2="70" stroke="#3a3020" stroke-width="1" />
 
@@ -211,7 +196,6 @@
       <rect class="pill" width="105" height="32" rx="4" />
       <text x="52" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12" font-weight="600" class="a-body">Node / Express</text>
     </g>
-
     <g transform="translate(30, 127)">
       <rect class="pill" width="105" height="32" rx="4" />
       <text x="52" y="21" text-anchor="middle" fill="#f4f0eb" font-size="12" font-weight="600" class="a-body">RESTful APIs</text>
@@ -222,7 +206,7 @@
     </g>
 
     <text x="30" y="185" fill="#a89d8c" font-size="11.5" class="a-body">
-      Focus: Clean microservice boundaries, auth &amp; scalable endpoints
+      Focus: Clean microservice boundaries, authentication &amp; endpoint scaling
     </text>
   </g>
 </svg>
