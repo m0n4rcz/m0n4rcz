@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/masterpiece.svg" alt="Nguyễn Nhật Anh — Software &amp; Data Systems" width="100%" />
+  <img src="assets/masterpiece.svg?v=2" alt="Nguyễn Nhật Anh — Software &amp; Data Systems" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="45%" />
+  <img src="assets/divider.svg?v=2" alt="Divider" width="45%" />
 </p>
 
 <p align="center">
